@@ -12,6 +12,13 @@ pipeline {
                 sh 'mvn clean'
             }
         }
+		//Code starts for stage PMD
+		stage('PMD') {
+            steps {
+                sh 'mvn site'
+            }
+        }
+		//Code ends for stage PMD
 
 		//Code ends for stage System Test
 		
