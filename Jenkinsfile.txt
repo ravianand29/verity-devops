@@ -66,6 +66,15 @@ pipeline {
             }
         }
 		//Code ends for stage War Deployed on Tomcat Server
+		//Code starts for stage System Test
+		stage('System Test') {
+            steps {
+				//Change git url below as per your forked github repository URL
+				git url: 'https://github.com/ravianand29/EMSystemTests.git'
+            	sh 'mvn -Dtest=ExpenseManagerSystemTest test'
+            }
+        }
+		//Code ends for stage System Test
 
 		//Code ends for stage System Test
 		
