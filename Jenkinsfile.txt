@@ -19,6 +19,7 @@ pipeline {
             }
         }
 		//Code ends for stage PMD
+                sh 'mvn compile'
 
 		//Code ends for stage System Test
 		
