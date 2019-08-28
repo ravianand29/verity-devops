@@ -3,7 +3,7 @@ pipeline {
     stages {
 		
 		
-		// *****ALL CODE TO BE ADDED BEccLOW THIS COMMENT*****
+		// *****ALL CODE TO BE ADDdddED BEccLOW THIS COMMENT*****
 		
 			
 		//Code starts for stage Clean
